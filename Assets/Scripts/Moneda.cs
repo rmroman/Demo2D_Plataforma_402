@@ -22,6 +22,11 @@ public class Moneda : MonoBehaviour
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
             
             Destroy(gameObject, 0.5f);
+            
+            // Contar monedas
+            SaludPersonaje.instance.monedas += 25;
+            HUD.instance.ActualizarMonedas();
+
         }
     }
 }

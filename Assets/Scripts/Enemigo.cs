@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /*
  * Detecta la colisión del enemigo con el personaje
@@ -13,7 +14,15 @@ public class Enemigo : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Destroy(other.gameObject, 0.3f);
+            // Descontar una vida
+            SaludPersonaje.instance.vidas--;
+            // Actualizar los 'corazones'
+            HUD.instance.ActualizarVidas();
+            if (SaludPersonaje.instance.vidas == 0)
+            {
+                Destroy(other.gameObject, 0.3f);
+                SceneManager.LoadScene("EscenaMenu");   // Pierde, regresa al menú
+            }
         }
     }
 }
