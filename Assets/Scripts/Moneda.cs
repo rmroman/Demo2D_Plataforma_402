@@ -26,7 +26,6 @@ public class Moneda : MonoBehaviour
             // Contar monedas
             SaludPersonaje.instance.monedas += 25;
             HUD.instance.ActualizarMonedas();
-
         }
     }
 }

@@ -23,8 +23,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/MoverCamara.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemigo.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SaludPersonaje.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Moneda.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HUD.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MenuPausa.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Moneda.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pDBO57i0WVdy4uIpZdTFFCUoyi" />

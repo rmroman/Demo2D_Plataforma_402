@@ -9,6 +9,7 @@
           <e p="Enemigo.cs" t="Include" />
           <e p="HUD.cs" t="Include" />
           <e p="Menu.cs" t="Include" />
+          <e p="MenuPausa.cs" t="Include" />
           <e p="Moneda.cs" t="Include" />
           <e p="MoverCamara.cs" t="Include" />
           <e p="MoverPersonaje.cs" t="Include" />
