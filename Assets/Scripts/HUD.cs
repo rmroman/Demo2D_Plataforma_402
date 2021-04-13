@@ -12,7 +12,23 @@ public class HUD : MonoBehaviour
 
     public Text textoMonedas;
 
+    public Slider slider;       // Slider del tiempo de animación
+
     public static HUD instance;
+
+    public void CambiaSlider()
+    {
+        float valor = slider.value;
+        Time.timeScale = valor;
+    }
+
+    private void Start()
+    {
+        // Leer el valor desde las preferencias
+        int numeroMonedas = PlayerPrefs.GetInt("numeroMonedas", 3);
+        textoMonedas.text = numeroMonedas.ToString();
+        SaludPersonaje.instance.monedas = numeroMonedas;
+    }
 
     /*
      * Se ejecuta cuando el objeto se activa (antes de Start)
