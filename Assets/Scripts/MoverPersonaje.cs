@@ -19,8 +19,8 @@ public class MoverPersonaje : MonoBehaviour
         // Inicializar variables
         rigidbody = GetComponent<Rigidbody2D>();    // Enlazar RB -> script
 
-        float x = PlayerPrefs.GetFloat("xP");
-        gameObject.transform.position = new Vector3(x, 0, 0);
+        //float x = PlayerPrefs.GetFloat("xP");
+        //gameObject.transform.position = new Vector3(x, 0, 0);
     }
 
     // Update is called once per frame (FRECUENTEMENTE, 60 veces/seg)

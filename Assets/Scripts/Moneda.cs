@@ -12,11 +12,17 @@ public class Moneda : MonoBehaviour
     // Referencia al Audio Source
     public AudioSource efectoMoneda;
 
+    // Referencia al sistema de partículas
+    public ParticleSystem hit;
+
     // La moneda colisionó con otro objeto (colliders)
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            // Mostrar la 'explosión' con el sistema de partículas
+            hit.Play();
+
             // Recolectar
             // Reproducir un efecto de sonido
             efectoMoneda.Play();

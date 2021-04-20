@@ -17,7 +17,6 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/CambiaAnimacion.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MoverPersonaje.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PruebaPiso.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Menu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MoverCamara.cs" />
@@ -26,6 +25,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Moneda.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HUD.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemigo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MoverPersonaje.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pDBO57i0WVdy4uIpZdTFFCUoyi" />
